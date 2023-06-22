@@ -1,0 +1,46 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    color: antiquewhite;
+    background-color: rgb(2, 37, 9);
+}
+
+header h1 {
+    background-color: antiquewhite;
+    color: rgb(79, 128, 79);
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+header nav ul {
+    list-style: none;
+    justify-content: center;
+}
+
+header a {
+    color:rgb(79, 128, 79)
+}
+
+header nav ul li a {
+    padding: 10px;
+    background-color: rgb(2, 37, 9);
+    color: tan;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    background: rgb(42, 82, 42);
+    color: tan;
+}
